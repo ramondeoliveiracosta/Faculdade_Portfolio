@@ -1,4 +1,97 @@
+
+@font-face{
+    font-family: bebas;
+
+    /*Caso a fonte esteja na mesma pasta*/
+    src: url("BebasNeue-Regular.ttf");
+}
+
+
+#backgroundBody{
+    background-color: #101010;
+    color: #9a9da0;
+    height: 2000px;
+}
+
+.nav{
+    background-color: #343a40;
+    
+}
+
+.textoAmarelo{
+    color: #ce8523;
+    
+}
+
+}
 .iconNavbar{
     width: 20px;
     height: 20px;
+}
+
+.box{
+    height: 50%;
+    
+}
+.subtitulo{
+    font-family: bebas;
+    color: #9a9da0;
+    margin: 5% 0 0%;
+    width: 100%;
+    float: left;
+    font-size: 50pt;
+    
+}
+
+.barra{
+    position: relative;
+    width: 10%;
+    float: left;
+    border: solid 5px #ce8523;
+    margin: 1% 0%;
+    
+}
+
+#imgSobre{
+    position: relative;
+    width: 250px;
+    margin: 5% 0 0 -10%;
+    float: left;
+    
+    
+}
+
+.teste{
+    height: auto;
+    margin: 20% 0 0 5%;
+    width: 70%;
+    float: left;
+    
+}
+
+.teste.h3{
+    color: #ce8523;
+    
+}
+
+
+#nome{
+    font-family: bebas;
+    font-size: 50pt;
+}
+
+.tableIcon{
+    width: 30px;
+    height: 30px;
+    
+}
+
+#tableSobre{
+    height: 120px;
+    width: 100%;
+    
+}
+
+#theadSobre{
+    margin: 10%;
 }
