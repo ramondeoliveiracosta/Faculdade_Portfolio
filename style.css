@@ -5,13 +5,41 @@
     /*Caso a fonte esteja na mesma pasta*/
     src: url("BebasNeue-Regular.ttf");
 }
+	
+ul {
+ list-style-type: none;
+ } 
 
+/*Link não visitado */
+a:link {
+  color: #9a9da0;
+  text-decoration: none;
+}
+ 
+/*Link já visitado*/
+a:visited {
+  color: #9a9da0;
+  text-decoration: none;
+}
+ 
+/*Quando o mouse passa por cima*/
+a:hover {
+  color: #ce8523;
+  text-decoration: none;
+}
+ 
+/*Link ativo/selecionado*/
+a:active {
+  color: #9a9da0;
+  text-decoration: none;
+}
 
 #backgroundBody{
     background-color: #101010;
     color: #9a9da0;
     height: 2000px;
 }
+
 
 .nav{
     background-color: #343a40;
@@ -23,7 +51,6 @@
     
 }
 
-}
 .iconNavbar{
     width: 20px;
     height: 20px;
@@ -75,23 +102,106 @@
 }
 
 
-#nome{
+.nome{
     font-family: bebas;
     font-size: 50pt;
 }
 
-.tableIcon{
-    width: 30px;
-    height: 30px;
-    
+.list-group{
+    background-color: #101010;
+    width: 50%;
+    float: right;
+    border: #101010;
 }
 
-#tableSobre{
-    height: 120px;
+.list-group-item{
+     background-color: #101010;
     width: 100%;
+    float: right;
+    border: #101010;
+}
+.listIcon{
+    width: 30px;
+    height: 30px
     
 }
 
-#theadSobre{
-    margin: 10%;
+
+.card{
+    width: 35%;
+    border:#ce8523 solid;
+    margin: 10% 0 0;
+    position: relative;
+    float: left;
+    margin: 25% 0 0 5%;
+        
+    
+}
+
+.card-body{
+    background-color: #242424;
+    width: 100%;
+    height: auto;
+    margin: red solid 1px;
+    text-align: center;
+    margin: 
+   
+}
+
+#card-left{
+    position: relative;
+
+}
+
+
+
+#card-right{
+    position: relative;
+    float: right;
+}
+
+.imgCard{
+    width: 20%;
+    margin: 10% 0 10%;
+}
+
+#demo{
+    margin-top: 20%;
+    height: auto;
+}
+
+
+
+#btnCarousel{
+    font-size: 20pt;
+    margin: 0 auto;
+    color: #101010;
+    
+    transition: font-size 2s;
+}
+
+#btnCarousel:hover {
+    transition-delay: 3;
+    font-size: 30pt;
+    margin: 0 auto;
+    color: 101010;
+}
+
+
+#sectionContatos{
+    margin: 20% 0 0;
+}
+
+
+form{
+    width: 40%;
+    position: relative;
+    float: left;
+    margin:10% 0 0;
+}
+
+#contatos{
+    width: 40%;
+    float: right;
+    margin-top: 10%;
 }
