@@ -29,20 +29,25 @@ a:hover {
 }
  
 /*Link ativo/selecionado*/
-a:active {
+a:active {4
   color: #9a9da0;
   text-decoration: none;
+}
+
+body{
+    height: 
 }
 
 #backgroundBody{
     background-color: #101010;
     color: #9a9da0;
-    height: 2000px;
+    height: 5120px;
 }
 
 
 .nav{
     background-color: #343a40;
+    height: 100px;
     
 }
 
@@ -57,7 +62,8 @@ a:active {
 }
 
 .box{
-    height: 50%;
+    height: 1024px;
+    
     
 }
 .subtitulo{
@@ -129,18 +135,28 @@ a:active {
 
 .card{
     width: 35%;
-    border:#ce8523 solid;
-    margin: 10% 0 0;
     position: relative;
     float: left;
     margin: 25% 0 0 5%;
-        
-    
+    border: black solid;
+            
 }
 
+
+
 .card-body{
+    border:#ce8523 solid;
     background-color: #242424;
     width: 100%;
+    height: auto;
+    text-align: center;
+    margin: 
+   
+}
+
+.card-body:hover{
+    background-color: #242424;
+    width: 110%;
     height: auto;
     margin: red solid 1px;
     text-align: center;
